@@ -34,12 +34,20 @@ li{
 }
 .quote-block{
     background-color: #E5E7EB;
-    color: #1F2937
+    color: #1F2937;
+    padding: 110px 22vw 90px 22vw;
 }
 .quote{
-    font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    font-size: 32px;
+}
+.author{
+    font-weight:bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    margin: 15px;
 }
 .random{
     font-size: 36px;
@@ -48,6 +56,11 @@ li{
 }
 .block-action, button{
     background-color: #3882F6;
+    padding: 40px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
 }
 .hero-title{
     font-size: 48px;
@@ -55,7 +68,7 @@ li{
     font-weight: 900;
 }
 .hero-subtext{
-    font-size: 14px;
+    font-size: 16px;
     color: #E5E7EB
 }
 .Header{
@@ -86,4 +99,57 @@ button{
     border-radius: 8px;
     padding: 5px 20px;
     margin-top: 10px;
+}
+
+.random{
+    display:flex;
+    font-size: 32px;
+    justify-content: center;
+    margin: 44px 0px;
+}
+.blocks-four{
+    display:flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.blocks{
+    max-width: 145px;
+    margin-bottom: 110px;
+}
+
+.block{
+    border: #3882F6;
+    border-width: 4px;
+    border-style: solid;
+    width: 145px;
+    height: 145px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+.subtext{
+    font-size: 15px;
+    color: #777777;
+    text-align: center;
+}
+.call-outside{
+    padding:90px 15vw;
+}
+.sign-call{
+    border-color: white;
+    border-width: 3px;
+    box-shadow: none;
+    border-style: solid;
+    font-size: 17px;
+    font-weight: 700;
+}
+.call{
+    font-weight: 700;
+    font-size: 20px;
+}
+.Footer{
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
 }
